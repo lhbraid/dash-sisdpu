@@ -7,7 +7,7 @@ import os
 
 # 1) Leitura do arquivo Excel
 BASEDIR = os.path.dirname(__file__)
-file_path = os.path.join(BASEDIR, "data", "Ticket#13435.xlsx")
+file_path = os.path.join(BASEDIR, "data", "planilhaSISDPU.xlsx")
 df = pd.read_excel(file_path)
 
 # 2) Filtrar apenas Fortaleza/CE
