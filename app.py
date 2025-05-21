@@ -351,6 +351,8 @@ app.layout = html.Div([
             start_date=pd.to_datetime(df["Data de Abertura do PAJ"], dayfirst=True).min(),
             end_date=pd.to_datetime(df["Data de Abertura do PAJ"], dayfirst=True).max(),
             display_format="DD/MM/YYYY",
+            minimum_nights=0,             # permite start_date == end_date
+            allow_single_day_range=True,  # autoriza range de um único dia
             style={
                 "fontSize":"12px",
                 "height":"32px",
