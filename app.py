@@ -337,7 +337,7 @@ app.layout = html.Div([
         ),
         html.Div([
     html.Div("Relatório SISDPU - Unidade Fortaleza/CE"),
-    html.Div("Última atualização: 21/05/2025", style={"fontWeight": "normal", "fontSize": "16px"})
+    html.Div("Última atualização: 20/05/2025", style={"fontWeight": "normal", "fontSize": "16px"})
 ], style={
     "flex": 1,
     "textAlign": "center",
